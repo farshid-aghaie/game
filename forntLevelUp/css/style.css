@@ -199,14 +199,14 @@ html {
     border-radius: 20px;
   }
 
-  .myCart button{
+  /* .myCart button{
     background: #00FF8C;
     color: #0F0F17;
-  }
-  .myCart button:hover{
+  } */
+  /* .myCart button:hover{
     background: #01da78;
     color: #14141f;
-  }
+  } */
 
 .myCarosel img{
   width: 100%;
@@ -263,3 +263,53 @@ html {
   border: 2px solid #292944;
 }
 
+.gZoneLogo img{
+  width: 120px;
+  height: 70px;
+
+}
+
+.button-levelup {
+  background: linear-gradient(135deg, #00f0ff, #c800ff); /* آبی به بنفش */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.4),
+              0 0 24px rgba(200, 0, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-levelup:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.8),
+              0 0 32px rgba(200, 0, 255, 0.6);
+}
+
+.btn-download-app {
+  background: linear-gradient(135deg, #00f0ff, #c800ff);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4), 0 0 20px rgba(200, 0, 255, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-download-app:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 14px rgba(0, 255, 255, 0.6), 0 0 28px rgba(200, 0, 255, 0.6);
+}
+
+.btn-download-app .icon {
+  flex-shrink: 0;
+}

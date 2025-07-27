@@ -1,0 +1,18 @@
+/* دستگاه‌های با عرض کمتر از 768px (موبایل و تبلت‌های کوچک) */
+@media only screen and (max-width: 767px) {
+  /* استایل‌های مخصوص موبایل */
+}
+
+/* دستگاه‌های با عرض کمتر از 480px (موبایل‌های کوچک) */
+@media only screen and (max-width: 479px) {
+  /* استایل‌های مخصوص موبایل‌های کوچک */
+
+  .fs-mob{
+    font-size: 12px !important;
+  }
+
+  .gZoneLogo img{
+  width: 100px !important;
+  height: 60px !important;
+}
+}
