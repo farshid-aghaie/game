@@ -15,4 +15,17 @@
   width: 100px !important;
   height: 60px !important;
 }
+
+.myfs{
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.myCarosel img{
+  height: 450px;
+}
+
+.swiper-wrapper{
+  /* width: 100%;
+  height: 250px; */
+}
 }

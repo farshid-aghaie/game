@@ -190,13 +190,15 @@ html {
   }
 
   .myCart{
+    height: fit-content;
+    /* background-color: #323253; */
     border: 1px solid #292944;
     border-radius: 20px;
   }
 
   .myCart img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
   /* .myCart button{
@@ -251,6 +253,11 @@ html {
 }
 
 
+.swiper-wrapper{
+  width: 100%;
+  height: fit-content;
+}
+
 
 .swiper-slide p {
   text-align: center;
@@ -273,7 +280,7 @@ html {
   background: linear-gradient(135deg, #00f0ff, #c800ff); /* آبی به بنفش */
   color: white;
   border: none;
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
   border-radius: 8px;
   font-size: 16px;
   font-weight: bold;
